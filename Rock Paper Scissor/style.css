@@ -1,0 +1,51 @@
+@import url(../CSS/clash-display.css);
+
+:root {
+    --c-brand: #4e57d4;
+    --c-brand-light: #6970dd;
+    --c-white: #ffff;
+    --font-base: "ClashDisplay", sans-serif;
+
+}
+
+body {
+    font-family: var(--font-base);  
+    text-align: center;
+    margin: 50px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.player {
+    margin: 0 10%;
+}
+
+
+.btn-brand {
+    background-color: var(--c-brand) !important;
+    border-color: var(--c-brand);
+    color: white;
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 2%;
+    padding: 13px 100px;
+   
+}
+
+
+
