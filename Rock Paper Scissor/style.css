@@ -68,6 +68,17 @@ body {
     background-color: rgba(224, 222, 222, 0.1);
 }
 
+.title {
+    margin-top: 5%;
+}
+
+/* btn */
+
+button {
+    width: 20%;
+    padding: 1rem;
+    font-size: 10px;
+}
 
 /* media query */
 
@@ -81,22 +92,77 @@ body {
         padding-top: 1rem;
         padding-bottom: 3rem;
     }
+
+    .outcome {
+        width: 22rem;
+    }
+
+    button {
+        width: 30%;
+        padding: 1rem;
+        font-size: 10px;
+    }
+
+    .title {
+        margin-top: 3%;
+    }
    
 }
 
-
-
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 
     .card-body {
-        width: 12rem; height: 18rem;color:  rgb(198, 193, 193);
+        width: 12rem; height: 20rem;color:  rgb(198, 193, 193);
     }
 
     .card {
         padding-top: 1rem;
-        padding-bottom: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    .outcome {
+        width: 15rem;
+    }
+
+    button {
+        width: 30%;
+        padding: 1rem;
+        font-size: 10px;
+    }
+
+    .title {
+        margin-top: 7%;
     }
 }
+
+@media (max-width: 427px) {
+
+    .card-body {
+        width: 12rem;
+        height: 17rem;
+        color:  rgb(198, 193, 193);
+    }
+
+    .card {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .outcome {
+        width: 5rem;
+    }
+
+    button {
+        width: 30%;
+        padding: 1rem;
+        font-size: 10px;
+    }
+
+    .title {
+        margin-top: 15%;
+    }
+}
+
 
 
 @media (max-width: 376px) {
@@ -108,8 +174,8 @@ body {
         gap: 1rem;
     }
 
-    .outcome .vs-img{
-        display: none;
+    .outcome {
+        width: 15rem;
     }
 
     .card-body {
@@ -117,12 +183,14 @@ body {
         height: auto;
     }
 
-
-
     button {
-        width: 100%;
+        width: 70%;
         padding: 1rem;
-        font-size: 18px;
+        font-size: 10px;
+    }
+
+    .title {
+        margin: 0%;
     }
 
 }
