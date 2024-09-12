@@ -84,17 +84,7 @@ body {
    
 }
 
-@media (max-width: 768px) {
 
-    .card-body {
-        width: 18rem; height: 22rem;color:  rgb(198, 193, 193);
-    }
-
-    .card {
-        padding: 1rem 5rem;
-    
-    }
-}
 
 @media (max-width: 768px) {
 
@@ -104,7 +94,7 @@ body {
 
     .card {
         padding-top: 1rem;
-        padding-bottom: 2rem;
+        padding-bottom: 3rem;
     }
 }
 
